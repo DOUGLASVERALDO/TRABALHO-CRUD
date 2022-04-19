@@ -1,0 +1,127 @@
+/*Geral*/
+
+body, a{
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+
+ header a, dt, h1, h2, h3, h4, h5, h6{
+    font-family: "Arial, baskerville, Helvetica, sans-serif";
+ }
+ h1{
+    color: yellow;
+ }
+ b{
+     color: black;
+ }
+
+ /*Containers*/
+
+ .container{
+     margin-top: -90px;
+     padding: 30px 0;
+     font-size: .8em;
+     text-align: center;
+     color:#fff;
+     margin-right: auto;
+     margin-left: auto;
+     padding-right: 15px;
+     padding-left: 15px;
+ }
+
+ /*Separadores*/
+
+.separador-esquerda::before, .separador-direita::before{
+    width: 150%;
+    height: 100px;
+    background:black;
+    top: 0;
+    content: '';
+}
+
+/*Separador à esquerda*/
+
+.separador-esquerda{
+    position: relative;
+    margin-left: -5px;
+}
+
+/*Cabeçalho*/
+
+header{
+    position: relative;
+    height: 100vh;
+    background: url(../img/BARBEARIA-ARACAJU-BARBEIRO-MESTRE.png) 
+        center center no-repeat fixed;
+}
+
+.mascara{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    background-image: url(../img/ponto.png);
+}
+
+header h1{
+    position:absolute;
+    top:50%;
+    left:50%;   
+    transform: translate(-50%, -50%);
+    font-size:3em;
+}
+
+header strong{
+    color:black;
+
+}
+ .seta{
+     position: absolute;
+     bottom: 50px;
+     left: 0;
+     right: 0;
+     display: block;
+     margin: 0 auto;
+ }
+
+
+/*Portifólio*/
+section.portifolio{
+        min-width: 120vh;
+        background: url(../img/barba-de-corte-de-homem-bonito-em-um-salao-de-barbeiro_1303-20970.webp)
+         center center no-repeat fixed #000;
+        background-size: cover;
+}
+
+section.portifolio .container{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    text-align: left;
+}
+    
+/*Sobre mim*/
+section.sobre{
+    min-height: 100vh;
+    background: url(../img/barba-de-corte-de-homem-bonito-em-um-salao-de-barbeiro_1303-20970.webp)
+    bottom center no-repeat black;
+}
+
+section.sobre .container{
+    padding-top:100px;
+    width: 40%;
+    margin-right: 2em;
+    padding-right: 2em;
+    text-align: right;
+}
+center{
+    color: yellow;
+}
+
+
+
+
